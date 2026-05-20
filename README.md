@@ -19,7 +19,7 @@ HTML email signature footer for [Techloom.ai](https://www.techloom.ai).
 
 ## Notes
 
-- Icons use one family: white [Icons8](https://icons8.com/) iOS Glyphs inside solid black circles (like your reference sheet).
+- Icons use one family: brand yellow (`#FCEE21`) [Icons8](https://icons8.com/) iOS Glyphs inside solid black circles.
 - For Outlook, if the logo does not show, replace the SVG logo URL with a PNG hosted on your site.
 
 ## License
