@@ -11,115 +11,77 @@
       background: #2a2a2a;
       font-family: 'Segoe UI', Arial, sans-serif;
     }
-    .wrap {
-      max-width: 640px;
-      margin: 0 auto;
-    }
-    h1 {
-      color: #fdfdfd;
-      font-size: 18px;
-      font-weight: 600;
-      margin: 0 0 8px 0;
-    }
-    p.note {
-      color: #a0a0a0;
-      font-size: 13px;
-      line-height: 1.5;
-      margin: 0 0 24px 0;
-    }
-    .panel {
-      background: #1e1e1e;
-      padding: 24px;
-      border-radius: 8px;
-    }
-    .tabs {
-      margin-bottom: 16px;
-    }
-    .tabs a {
-      color: #FCEE21;
-      margin-right: 16px;
-      font-size: 13px;
-    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    h1 { color: #fdfdfd; font-size: 18px; margin: 0 0 8px 0; }
+    p.note { color: #a0a0a0; font-size: 13px; margin: 0 0 24px 0; }
+    .panel { background: #1e1e1e; padding: 24px; border-radius: 8px; }
   </style>
 </head>
 <body>
   <div class="wrap">
     <h1>Techloom.ai Email Footer</h1>
-    <p class="note">
-      Local preview uses bundled <code>assets/</code>. In email clients, use <code>email.html</code> (CDN image URLs).
-      For Outlook desktop, prefer <code>email-outlook.html</code>.
-    </p>
-    <div class="tabs">
-      <a href="#standard">Standard</a>
-      <a href="#outlook">Outlook-safe</a>
-    </div>
-    <div class="panel" id="standard">
-      <!-- LOCAL PREVIEW: relative asset paths -->
-      <table cellpadding="0" cellspacing="0" border="0" width="600" role="presentation"
-        style="font-family: 'Segoe UI', Arial, Helvetica, sans-serif; width: 100%; max-width: 600px; border-collapse: collapse;">
+    <p class="note">Same layout as <code>email.html</code>. Copy the footer into your email signature.</p>
+    <div class="panel">
+      <!-- content mirrors email.html -->
+      <table cellpadding="0" cellspacing="0" border="0"
+        style="
+          font-family: 'Segoe UI', Arial, sans-serif;
+          background-color: #0f140e;
+          background-image: url('https://i.imgur.com/ml1adom.png');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          color: #fdfdfd;
+          width: 100%;
+          max-width: 700px;
+          border-radius: 12px;
+          overflow: hidden;
+        ">
         <tr>
-          <td bgcolor="#0f140e" background="assets/footer-bg.png"
-            style="background-color: #0f140e; background-image: url('assets/footer-bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 0;">
-            <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="border-collapse: collapse;">
+          <td style="padding: 30px; background-color: rgba(15, 20, 14, 0.6);">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
               <tr>
-                <td bgcolor="#0f140e" style="background-color: #0f140e; padding: 28px 28px 20px 28px;">
-                  <table cellpadding="0" cellspacing="0" border="0" width="100%" role="presentation" style="border-collapse: collapse;">
-                    <tr>
-                      <td width="110" valign="middle" style="padding: 0 16px 12px 0; vertical-align: middle;">
-                        <a href="https://www.techloom.ai" style="text-decoration: none; border: 0;">
-                          <img src="assets/logo.png" alt="Techloom.ai" width="110" style="display: block; border: 0; max-width: 110px;">
-                        </a>
-                      </td>
-                      <td valign="middle" style="padding: 0 0 12px 0; vertical-align: middle;">
-                        <div style="font-size: 22px; font-weight: bold; line-height: 1.2; color: #FCEE21;">Techloom<span style="color: #fdfdfd;">.ai</span></div>
-                        <div style="font-size: 15px; color: #b8b8b8; margin-top: 6px;">Weaving Digital Growth</div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td colspan="2" style="border-top: 1px solid #333d32; padding-top: 16px; font-size: 13px; line-height: 1.9;">
-                        <div style="margin-bottom: 6px;">
-                          <img src="assets/icons/phone.png" alt="" width="14" height="14" style="vertical-align: middle; border: 0; margin-right: 8px;">
-                          <span style="color: #b8b8b8;">Mobile:</span>
-                          <a href="tel:+94755544514" style="color: #FCEE21; text-decoration: none; font-weight: bold;">+94 75 55 44 514</a>
-                          <span style="margin: 0 6px; color: #555;">|</span>
-                          <span style="color: #b8b8b8;">Office:</span>
-                          <a href="tel:+94741455445" style="color: #FCEE21; text-decoration: none; font-weight: bold;">+94 74 14 55 445</a>
-                        </div>
-                        <div style="margin-bottom: 6px;">
-                          <img src="assets/icons/email.png" alt="" width="14" height="14" style="vertical-align: middle; border: 0; margin-right: 8px;">
-                          <a href="mailto:hello@techloom.ai" style="color: #FCEE21; text-decoration: none; font-weight: bold;">hello@techloom.ai</a>
-                        </div>
-                        <div style="margin-bottom: 6px;">
-                          <img src="assets/icons/globe.png" alt="" width="14" height="14" style="vertical-align: middle; border: 0; margin-right: 8px;">
-                          <a href="https://www.techloom.ai" style="color: #FCEE21; text-decoration: none; font-weight: bold;">www.techloom.ai</a>
-                        </div>
-                        <div>
-                          <img src="assets/icons/marker.png" alt="" width="14" height="14" style="vertical-align: middle; border: 0; margin-right: 8px;">
-                          <a href="https://www.google.com/maps/search/?api=1&query=Colombo+Sri+Lanka" style="color: #FCEE21; text-decoration: none; font-weight: bold;">Colombo</a>
-                          <span style="color: #FCEE21;"> &amp; </span>
-                          <a href="https://www.google.com/maps/search/?api=1&query=30+Palaly+Road+Jaffna" style="color: #FCEE21; text-decoration: none; font-weight: bold;">Jaffna</a>
-                        </div>
-                      </td>
-                    </tr>
-                  </table>
+                <td style="width: 120px; vertical-align: middle;">
+                  <img src="https://www.techloom.ai/logo.svg" alt="Techloom.ai" width="110" style="display: block; border: 0;">
+                </td>
+                <td style="padding-left: 20px; vertical-align: middle;">
+                  <div style="font-size: 22px; font-weight: bold; color: #FCEE21;">Techloom<span style="color: #FCEE21;">.ai</span></div>
+                  <div style="font-size: 14px; color: #a0a0a0; margin-top: 4px;">Weaving Digital Growth</div>
+                </td>
+                <td style="border-left: 1px solid #333d32; height: 90px; width: 1px; padding: 0;"></td>
+                <td style="padding-left: 30px; vertical-align: middle; font-size: 13px; line-height: 2;">
+                  <div style="margin-bottom: 2px;">
+                    <img src="https://img.icons8.com/ios-glyphs/14/FCEE21/phone.png" width="14" alt="" style="vertical-align: middle; margin-right: 8px; border: 0;">
+                    <a href="tel:+94755544514" style="color: #FCEE21; text-decoration: none; font-weight: bold;">+94 75 55 44 514</a>
+                    <span style="margin: 0 6px; color: #FCEE21;">|</span>
+                    <a href="tel:+94741455445" style="color: #FCEE21; text-decoration: none; font-weight: bold;">+94 74 14 55 445</a>
+                  </div>
+                  <div style="margin-bottom: 2px;">
+                    <img src="https://img.icons8.com/ios-glyphs/14/FCEE21/globe.png" width="14" alt="" style="vertical-align: middle; margin-right: 8px; border: 0;">
+                    <a href="https://www.techloom.ai" style="color: #FCEE21; text-decoration: none; font-weight: bold;">www.techloom.ai</a>
+                  </div>
+                  <div>
+                    <img src="https://img.icons8.com/ios-glyphs/14/FCEE21/marker.png" width="14" alt="" style="vertical-align: middle; margin-right: 8px; border: 0;">
+                    <a href="https://www.google.com/maps/search/?api=1&query=30+Palaly+Road+Jaffna" style="color: #FCEE21; text-decoration: none; font-weight: bold;">Colombo & Jaffna</a>
+                  </div>
                 </td>
               </tr>
             </table>
           </td>
         </tr>
         <tr>
-          <td bgcolor="#161d15" align="right" style="background-color: #161d15; padding: 14px 28px; text-align: right;">
-            <a href="https://www.behance.net/techloom_ai" title="Behance" style="display: inline-block; margin-left: 12px; padding: 4px; text-decoration: none;">
-              <img src="assets/icons/behance.png" alt="Behance" width="28" height="28" style="display: block; border: 0;">
+          <td style="background-color: #161d15; padding: 15px 30px; text-align: right;">
+            <a href="https://www.behance.net/techloom_ai" style="margin-left: 15px; text-decoration: none; border: 0;">
+              <img src="https://img.icons8.com/ios-glyphs/22/FCEE21/behance.png" width="22" alt="Behance" style="display:inline-block; vertical-align: middle; border:0;">
             </a>
-            <a href="https://www.linkedin.com/company/techloom-ai/" title="LinkedIn" style="display: inline-block; margin-left: 12px; padding: 4px; text-decoration: none;">
-              <img src="assets/icons/linkedin.png" alt="LinkedIn" width="28" height="28" style="display: block; border: 0;">
+            <a href="https://www.linkedin.com/company/techloom-ai/" style="margin-left: 15px; text-decoration: none; border: 0;">
+              <img src="https://img.icons8.com/ios-glyphs/22/FCEE21/linkedin.png" width="22" alt="LinkedIn" style="display:inline-block; vertical-align: middle; border:0;">
             </a>
-            <a href="https://www.facebook.com/share/1DDkfPaES6/" title="Facebook" style="display: inline-block; margin-left: 12px; padding: 4px; text-decoration: none;">
-              <img src="assets/icons/facebook.png" alt="Facebook" width="28" height="28" style="display: block; border: 0;">
+            <a href="https://www.facebook.com/share/1DDkfPaES6/" style="margin-left: 15px; text-decoration: none; border: 0;">
+              <img src="https://img.icons8.com/ios-glyphs/22/FCEE21/facebook-new.png" width="22" alt="Facebook" style="display:inline-block; vertical-align: middle; border:0;">
             </a>
-            <a href="https://www.instagram.com/techloom.ai" title="Instagram" style="display: inline-block; margin-left: 12px; padding: 4px; text-decoration: none;">
-              <img src="assets/icons/instagram.png" alt="Instagram" width="28" height="28" style="display: block; border: 0;">
+            <a href="https://www.instagram.com/techloom.ai" style="margin-left: 15px;">
+              <img src="https://img.icons8.com/ios-glyphs/22/FCEE21/instagram-new.png" width="22" alt="Instagram" style="display:inline-block; vertical-align: middle; border:0;">
             </a>
           </td>
         </tr>
